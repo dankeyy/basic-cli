@@ -8,3 +8,6 @@
 channel = "1.64.0" # check ^^^ when changing this
 # 
 # channel = "nightly-2022-08-06" # 1.64 nightly to be able to use unstable features
+targets = [
+    "x86_64-unknown-linux-musl",
+]
